@@ -24,7 +24,7 @@
     background-image: url(../images/background_header.svg);
     background-size: cover;
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
   
   .nav {
@@ -142,7 +142,7 @@
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-color: #0a2750;
   padding-top: 100px;
   padding-bottom: 215px;
