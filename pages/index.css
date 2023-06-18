@@ -49,7 +49,7 @@
     font-weight: bold;
   }
 
-  .header__title {
+  .header__titles {
     line-height: 72px;
     letter-spacing: -0.6px;
     max-width: 729px;
@@ -58,7 +58,7 @@
     margin-left: 80px;
   }
 
-  .header__span-accent {
+  .header__title {
     font-family: "Noto Serif";
     font-weight: normal;
     font-style: italic;
@@ -67,7 +67,7 @@
     color: #2F80ED;
   }
 
-  .header__no-accent{
+  .header__title-no-accent{
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -183,6 +183,10 @@
   display: flex;
   gap: 40px;
   justify-content: center;
+}
+
+.recipes__iframe {
+  border: 0px;
 }
 
 .recipes__caption {
