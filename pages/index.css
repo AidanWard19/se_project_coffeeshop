@@ -209,6 +209,10 @@ margin-top: 24px;
   margin: 0;
 }
 
+.reservation{
+  
+}
+
 .reservation__content{
   background-image: url(../images/background_reservation.svg);
   background-color: #D9E7FF;
