@@ -1,0 +1,81 @@
+.menu{
+background-image: url(../images/background_menu.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+
+.menu__content{
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.menu__title{
+max-width: 780px;
+margin: auto;
+padding-bottom: 24px;
+text-align: center;
+font-family: "Inter"; 
+font-style: normal; 
+font-weight: 500; 
+font-size: 44px; 
+line-height: 52px;
+}
+
+.menu__subtitle{
+max-width: 780px;
+margin: auto;
+padding-bottom: 100px;
+text-align: center;
+font-family: "Noto Serif"; 
+font-style: normal; 
+font-weight: normal; 
+font-size: 20px; 
+line-height: 30px;
+}
+
+.menu__cards{
+display: flex;
+justify-content: center;
+gap: 100px;
+max-width: 1180px;
+flex-wrap: wrap;
+margin: auto;
+}
+
+.menu__card{
+width: 540px;
+}
+
+.card__list{
+list-style: none;
+padding: 0;
+
+}
+
+.card__title{
+margin-top: 0;
+margin-bottom: 32px;
+font-family: "Inter"; 
+font-style: normal; 
+font-weight: bold; 
+font-size: 20px; 
+line-height: 30px;   
+}
+
+.card__list-item{
+display: flex;
+justify-content: space-between;
+margin-bottom: 16px;
+font-family: "Noto Serif"; 
+font-style: normal; 
+font-weight: normal; 
+font-size: 16px; 
+line-height: 20px;
+}
+
+.card__list-divider{
+flex-grow: 1;
+border-bottom: 1px solid#838383;
+}
