@@ -19,9 +19,6 @@
     margin-left: auto;
   }
   
-  .footer__column_content_social {
-   
-  }
   
   .footer__logo {
     height: 39px;
@@ -33,6 +30,11 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+  }
+
+  .footer__social-heading{
+    font-weight: bold;
+    margin-bottom: 20px;
   }
   
   .footer__list-item {
