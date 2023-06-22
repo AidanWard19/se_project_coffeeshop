@@ -1,8 +1,4 @@
 .reservation{
-  
-}
-
-.reservation__content{
   background-image: url(../images/background_reservation.svg);
   background-color: #D9E7FF;
   background-position: center;
@@ -28,5 +24,5 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 80px;
+  
 }

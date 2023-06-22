@@ -14,32 +14,29 @@
     background-repeat: no-repeat;
 }
 
-.header__titles {
+  .header__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
     line-height: 72px;
     letter-spacing: -0.6px;
     max-width: 729px;
     text-align: left;
     margin-top: 183px;
     margin-left: 80px;
-  }
-
-  .header__title {
-    font-family: "Noto Serif";
-    font-weight: normal;
-    font-style: italic;
-    font-size: 60px;
-    margin: 0;
-    color: #2F80ED;
-  }
-
-  .header__title-no-accent{
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    letter-spacing: -0.6px;
+    margin-bottom: 0;
     display: block;
+  }
+
+  .header__span-accent{
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
     margin: 0;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
   }
 
   .header__description {
@@ -71,7 +68,7 @@
     
   }
 
-  .header__paragraph{
+  .header__paragraphs{
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -79,7 +76,7 @@
     margin-bottom: 40px;
   }
 
-  .header__paragraph-text{
+  .header__paragraph{
     margin: 0;
   }
 
