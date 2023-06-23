@@ -33,7 +33,6 @@
 
   .footer__social-heading{
     font-weight: bold;
-    margin-bottom: 20px;
     margin: 0 0 20px;
     font-size: 16px;
     line-height: 20px;
@@ -42,6 +41,9 @@
   
   .footer__list-item {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
   }
   
   .footer__list-item:nth-last-child(1){

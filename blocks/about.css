@@ -49,7 +49,7 @@ justify-content: space-between;
 
 .about__paragraph{
     color: white;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
