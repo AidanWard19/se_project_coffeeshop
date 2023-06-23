@@ -43,6 +43,7 @@
     font-size: 60px;
     line-height: 72px;
     color: #2F80ED;
+    display: block;
   }
 
   .header__description {
@@ -84,10 +85,10 @@
   }
 
   .header__paragraph{
-    margin: auto 0 0;
+    margin: 0;
   }
 
-  .header__address{
+  .header__paragraph:last-of-type{
     align-self: flex-end;
     margin-right: 80px;
     margin-bottom: 40px;
