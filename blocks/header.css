@@ -87,6 +87,11 @@
     margin: 0;
   }
 
+  .header__paragraph_last_right{
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
   .header__image {
     z-index: 1;
     position: absolute;
